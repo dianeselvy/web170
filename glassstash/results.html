@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Glass Stash</title>
+	<link rel="stylesheet" type="text/css" href="finalstyles.css" />
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+<script>
+$("nav").navigation({
+	maxWidth: "740"
+});
+</script>
+<body>
+<div id="header">
+<h1 id="logo">
+    <a href="http://dianeselvy.com/glassstash/index.html"><img src="images/GlassStashlogo.png" height="150px" /></a>
+    </h1>
+    
+<div id="social">
+	<ul>
+		<li><a href="#">En Espanol</a> </li>
+		<li><a href="http://edison.seattlecentral.edu/~dselvy01/web200/privacypolicy.html">Privacy Policy</a> </li>
+		<li><a href="#">Log In</a></li>
+	</ul>
+<ul>
+       <li><a href="#"><img src="images/fb.png"></a></li>
+       <li><a href="#"><img src="images/twit.png"></a></li>
+       <li><a href="#"><img src="images/insta.png"></a></li>
+</ul>
+    
+<!--  begin search form -->
+<form id="searchForm" method="post" target="_blank" >
+		<fieldset>
+        
+           	<input id="s" type="text" />
+            
+            <input type="submit" value="Submit" id="submitButton" />
+            
+            <div id="searchInContainer">
+            <input type="radio" name="check" value="web" id="searchWeb" />
+                <label for="searchWeb">Search The Web</label><br>
+                <input type="radio" name="check" value="site" id="searchSite" checked />
+                <label for="searchSite" id="siteNameLabel">Search</label>
+            
+			</div>          
+        </fieldset>
+    </form>
+
+<!-- end search form -->
+
+</div>
+</div>
+    
+    <nav class="navigation fs-navigation-element fs-navigation-toggle-nav fs-navigation__3" data-navigation-handle="#nav_handle_2" data-navigation-options="{"maxWidth:740px"}">
+       <a href="#">Services</a>
+       <a href="#">Gallery</a>
+       <a href="#">Blog</a>
+       <a href="#">Store</a>
+       <a href="#">About</a>
+       <a href="http://dianeselvy.com/glassstash/contact.php">Contact</a>
+    </nav>
+
+    
+<div id="middle">
+
+<!--  begin search form -->
+
+        <div id="resultsDiv"></div>
+
+<!-- end search form -->
+	</div>
+	
+</body>
+
+<div id="footer">
+<a href="">Contact</a> | <a href="">Site Map</a>  |  <a href="">Log In</a>
+<p>Copyright 2015 &copy; Website by Diane Selvy</p>
