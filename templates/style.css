@@ -1,0 +1,413 @@
+/* CSS DOCUMENT  */
+
+/*
+Theme Name: Dizzle
+Theme URI: http://wordpress.org/themes/dizzle
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: Theme originally created for a Glass Company.
+License URI: deez nuts
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: dizzle
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+#div {
+  display:inline;
+}
+
+
+#header {
+  width:1000px;
+  height:225px;
+  margin:0px auto;
+  background-image:url(images/bg-head.gif);
+  border-radius: 25px;
+}
+
+  #logo {
+    width:235px;
+    height:180px;
+    float:left;
+    padding-left:20px;
+  }
+  #logo img {
+    width:222px;
+    height:170px;
+  }
+
+  
+  #social {
+    width:355px;
+    height:115px;
+    float:right;
+  }
+  
+    #social ul{
+      text-decoration:none;
+      display:inline;
+      margin: 0px auto;
+      list-style-type:none;
+    }
+    
+    #social ul img{
+      display:inline;
+      height:40px;
+      width:40px;
+      padding: 10px 10px;
+      float:right;
+    }
+    
+    #social ul a{
+      text-decoration:none;
+      display:inline;
+      color:#A7A9AB;
+      float:right;
+      padding:0px 10px;
+      font-family:sans-serif;
+    }
+    
+    #social form {
+      padding:20px 10px 10px 40px;
+    }
+      
+nav.menu {
+  width:980px;
+  height:45px;
+  margin:0px auto;
+  background-image:url(images/bg-nav.gif);
+}
+
+nav.menu ul {
+    text-align:center;
+  }
+  
+nav.menu li {
+    list-style-type:none;
+    display:inline-block;
+    font-size:18px;
+    color:#434343;
+    padding:10px 15px;
+    text-align:center;
+  }
+  
+nav.menu li a {
+    color:#434343;
+    font-family:sans-serif;
+    text-decoration:none;
+  }
+
+ul.children {
+    display:none;
+}
+
+/*
+.navigation {
+  margin: 0px 0px 20px;
+  overflow:hidden;
+  display:block;
+  text-align:center;
+  font-family: 'Dosis', sans-serif;
+}
+*/
+.navigation a {
+  border: medium none;
+  display:inline-block;
+  text-align:center;
+  font-size:20px;
+  line-height:40px;
+  margin:0px 1px 0px 0px;
+  padding:20px 20px 10px; 20px;
+  font-family:sans-serif;
+  color:#A7A9AB;
+}  
+  
+a {
+  text-decoration:none;
+}
+#hero {
+  width:980px;
+  height:330px;
+  margin: 0px auto;
+  padding-bottom:35px;
+}
+  
+  #hero img {
+    width:980px;
+  padding-bottom:30px;
+  }
+  
+  #hero h2 {
+    float:right;
+    font-size:26px;
+    padding: 30px 30px;
+    color:#434343;
+    font-family:sans-serif;
+  }
+  
+  #hero a {
+    font-family:sans-serif;
+    text-decoration:none;
+    color:#434343;
+  }
+  
+#middle {
+  width:1000px;
+  height:210px;
+  margin:0px auto;
+  padding:30px 10px 0px 50px;
+  border-radius: 25px;
+  font-family: 'Dosis', sans-serif;
+}
+
+#middlecontact {
+  width:980px;
+  height:420px;
+  background-image:url(images/bg-bodynav.gif);
+  margin:0px auto;
+  padding:30px 10px 0px 50px;
+  border-radius: 25px;
+  font-family: 'Dosis', sans-serif;
+  text-align:center;
+}
+
+#middlecontact iframe {
+  padding-top:20px;
+}
+  
+  #middle p {
+    color:#434343;
+    font-family: 'Dosis', sans-serif;
+  }
+
+#middle a{
+  font-family: 'Dosis', sans-serif;
+  color:#2b2b2b;
+}
+
+#middle div {
+  text-align:center;
+}
+
+#footer {
+  width:980px;
+  height:65px;
+  background-color:#ffffff;
+  margin:0px auto;
+  text-align:center;
+  padding:100px 10px 20px 10px;
+  font-family:sans-serif;
+  border-radius: 25px;
+}
+  #footer a {
+    text-decoration:none;
+    color:#c1cd95;
+  }
+  
+  #footer p {
+    color:#c1cd95;
+  }
+
+#content-pp {
+  width:945px;
+  height:1930px;
+  background-image:url(images/bg-bodynav.gif);
+  margin:0px auto;
+  padding:20px 10px 0px 30px;
+}
+
+#policy {
+    background-color:#D8E2B0;
+    height:1895px;
+    width:895px;
+    padding:10px 10px 0px 20px;
+    font-family:sans-serif;
+  }
+
+#content-aboutus {
+  width:945px;
+  height:500px;
+  background-image:url(images/bg-bodynav.gif);
+  margin:0px auto;
+  padding:20px 10px 0px 30px;
+}
+#info-aboutus {
+  width:900px;
+  height:460px;
+  background-color:#D8E2B0;
+  padding:10px 10px 10px 15px;
+  font-family:sans-serif;
+}
+
+#content-contact {
+  width:945px;
+  height:870px;
+  background-image:url(images/bg-bodynav.gif);
+  margin:0px auto;
+  padding:20px 10px 0px 30px;
+}
+
+#info-contact {
+  width:900px;
+  height:830px;
+  background-color:#D8E2B0;
+  padding:10px 10px 10px 15px;
+  font-family:sans-serif;
+  float:left;
+}
+
+  #info-contact form {
+    float:right;
+  }
+  
+#about {
+  width:1000px;
+  height:570px;
+  background:#444445;
+  border-radius:25px;
+  font-family:arial;
+  margin:0px auto;
+  }
+
+#about p {
+  font-size:18px;
+  padding: 30px 20px;
+  font-family:arial;
+  text-align:center;
+  color:#ffffff;
+  background-image:url("img/joe.png");
+  border-top-right-radius:25px;
+  border-top-left-radius:25px;
+  }
+
+#about img {
+  height:150px;
+  float:left;
+  padding-left:18px;
+  padding-right:18px;
+  }
+
+#testimonies {
+  background-color:#444445;
+  width:770px;
+  height:250px;
+  text-align:center;
+  margin:0px auto;
+  }
+
+#testimonies li{
+  list-style-type:none;
+  font-size: 17px;
+  color:#ffffff;
+  background-color:#677d75;
+  padding:10px;
+  font-family:arial;
+  border-radius:15px;
+  }
+
+#photos {
+  width:1000px;
+  height:555px;
+  margin: 0px auto;
+  background:#444445;
+  border-radius:25px;
+  padding-bottom:35px;
+}
+#photos ul li {
+  height:100px;
+  margin: 0px auto;
+  list-style-type:none;
+  display:inline;
+  align-content:center;
+  padding:15px 15px;
+}
+
+#photos ul li img{
+  padding-top:20px;
+}
+  
+/* SEARCH FORM STYLEZ */
+#searchForm{
+  /* The search form. */
+  background-color:none;
+  padding:50px 50px 30px;
+  -moz-border-radius:16px;
+  -webkit-border-radius:16px;
+  border-radius:16px;
+}
+
+fieldset{
+  border:none;
+  text-align:right;
+}
+
+#searchInputContainer{
+  /* This div contains the transparent search box */
+  width:420px;
+  height:36px;
+  background:url("img/searchBox.png") no-repeat;
+  float:left;
+  margin-right:12px;
+}
+
+#s{
+  /* The search text box. */
+  border-radius:25px;
+  color:#ffffff;
+  float:right;
+  font-family:Arial,Helvetica,sans-serif;
+  font-size:15px;
+  height:36px;
+  line-height:36px;
+  outline:medium none;
+  padding:0 0 0 35px;
+  text-shadow:1px 1px 0 white;
+  width:255px;
+}
+
+span.arrow{
+  /* The little arrow that moves below the icons */
+  
+  width:11px;
+  height:6px;
+  margin:21px 0 0 5px;
+  position:absolute;
+  background:url('img/arrow.png') no-repeat;
+  left:0;
+}
+
+
+/* The submit button */
+
+
+#submitButton{
+  background:url('img/buttons.png') no-repeat;
+  width:83px;
+  height:36px;
+  text-indent:-9999px;
+  margin-left:175px;
+  overflow:hidden;
+  text-transform:uppercase;
+  border:none;
+  cursor:pointer;
+}
+
+#submitButton:hover{
+  background-position:left bottom;
+}
+
+p.notFound {
+  background-color:ffffff;
+  border:1px;
+}
+
+#c-form {
+  text-align:center;
+}
