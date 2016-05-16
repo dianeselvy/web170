@@ -19,7 +19,7 @@
     
 <div id="header">
 <h1 id="logo">
-    <a href="http://dianeselvy.com/web170/wordpress/wp-content/themes/dizzle/"><img src="<?php bloginfo('template_directory'); ?>/images/GlassStashlogo.jpg"></a>
+    <a href="http://dianeselvy.com/web170/wordpress/wp-content/themes/dizzle/"><img src="<?php bloginfo('template_directory'); ?>/images/GlassStashlogo.png"></a>
     </h1>
 <div id="social">
   <ul>
