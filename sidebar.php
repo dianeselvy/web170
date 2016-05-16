@@ -4,17 +4,17 @@
 
     if(is_page()) {
 
-    if($post->post_parent) {//if the page we're on has a parent  
+    if($post->post_parent) {  
         echo '<h2>'.get_the_title($post->post_parent).'</h2>';
         echo '<ul>';
-        wp_list_pages(array('title_li' => '','child_of' => $post->post_parent,));//do this
+        wp_list_pages(array('title_li' => '','child_of' => $post->post_parent,));
         echo '</ul>';
     }
 
-    else {//if the page we're on doesn't have a parent
+    else {
         echo '<h2>'.get_the_title($post->post_parent).'</h2>';
         echo '<ul>';
-        wp_list_pages(array('title_li' => '','child_of' => $post->ID,));//do this
+        wp_list_pages(array('title_li' => '','child_of' => $post->ID,));
         echo '</ul>';
     }
     }
