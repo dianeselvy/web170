@@ -77,19 +77,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
     #social form {
       padding:20px 10px 10px 40px;
     }
-      
-nav.menu {
-  width:980px;
+    
+nav.menu-main-container {
+  width:1000px;
   height:45px;
   margin:0px auto;
+  border-radius:15px;
   background-image:url(images/bg-nav.gif);
 }
 
-nav.menu ul {
+nav.menu-main-container ul {
     text-align:center;
   }
   
-nav.menu li {
+nav.menu-main-container li {
     list-style-type:none;
     display:inline-block;
     font-size:18px;
@@ -98,13 +99,14 @@ nav.menu li {
     text-align:center;
   }
   
-nav.menu li a {
+nav.menu-main-container li a {
     color:#434343;
     font-family:sans-serif;
     text-decoration:none;
   }
 
-ul.children {
+  
+ul.sub-menu {
     display:none;
 }
 
@@ -215,6 +217,34 @@ a {
     color:#c1cd95;
   }
 
+#content {
+	width:980px;
+	margin:0px auto;
+}
+
+#content article.post-excerpt {
+overflow: hidden;
+margin-bottom: 20px;
+}
+
+#content img.featured {
+	margin-bottom:10px;
+}  
+
+#content img.wp-post-image {}
+
+#content img.attachment-thumbnail {
+	float:left;
+	margin:4px 20px 0 0;
+}
+
+#content img.attachment-medium {}
+
+#content img.attachment-large {}
+
+#content img.attachment-full {}
+
+
 #content-pp {
   width:945px;
   height:1930px;
@@ -312,6 +342,12 @@ a {
   border-radius:15px;
   }
 
+#sidebar {
+	width:300px;
+	float:right;
+}
+  
+  
 #photos {
   width:1000px;
   height:555px;
