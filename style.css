@@ -198,6 +198,10 @@ a {
   text-align:center;
 }
 
+blockquote {
+	font-family:arial;
+}
+
 #footer {
   width:980px;
   height:65px;
@@ -345,8 +349,13 @@ margin-bottom: 20px;
 #sidebar {
 	width:300px;
 	float:right;
+	padding:0px 0px 0px 30px;
 }
   
+#page-content {
+	width:650px;
+	float:left;
+}
   
 #photos {
   width:1000px;

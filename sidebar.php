@@ -1,13 +1,16 @@
-  <div id="sidebar">
+    <div id="sidebar">
     
     <div id="sub-navigation">
     <?php my_subnavigation(); ?>
     </div>
-    
-    <div id="dynamic-widgets">
+    <hr>
+    <?php if (get_post_meta($post->ID, 'Quote', true)) : ?>
+        <blockquote><?php echo get_post_meta($post->ID, 'Quote', true); ?></blockquote>
+    <?php endif; ?>
+    <hr>
+    <div id="dynamic-sidebar">
     <?php dynamic_sidebar(); ?>
     </div>
     
-    
-  </div>
+    </div>
     
