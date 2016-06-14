@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  
 <head>
+  <?php wp_head(); ?> 
+
+ 
+
   <meta charset="utf-8">
   <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?> Seattle, WA</title>
-  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+  <meta name="description" content="<?php echo strip_tags(get_the_excerpt()); ?>" />
+  <title><?php get_title(); ?><!--<?php bloginfo('description'); ?> | <?php bloginfo('name'); ?>--> Seattle, WA</title>
+  <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="all" />
-  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-   <?php wp_head(); ?> 
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/flexslider.css" type="text/css" media="all" />
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/scripts/jquery.flexslider.js"></script>
+
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -19,7 +26,7 @@
     
 <div id="header">
 <h1 id="logo">
-    <a href="http://dianeselvy.com/web170/wordpress/wp-content/themes/dizzle/"><img src="<?php bloginfo('template_directory'); ?>/images/GlassStashlogo.png"></a>
+    <a href="http://dianeselvy.com/web170/wordpress/"><img src="<?php bloginfo('template_directory'); ?>/images/GlassStashlogo.png"></a>
     </h1>
 <div id="social">
   <ul>
